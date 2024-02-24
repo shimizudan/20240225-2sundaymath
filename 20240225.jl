@@ -29,7 +29,7 @@ using MathLink
 md"""
 # 高校数学とJulia言語について
 
-> ![](https://shimizudan.github.io/20240225-2sundaymath/pic4.png)
+> ![](https://shimizudan.github.io/20240225-2sundaymath/pic29.png)
 
 __2024年2月25日　日曜数学会 #29　　　　清水　団　[@dannchu](https://twitter.com/dannchu)__
 
@@ -212,7 +212,7 @@ md"""
 
 # ╔═╡ dd200393-0a62-44f7-8875-3b5b770058ce
 let
-	[(x,y) for x = 1:1000, y=1:1000 if x^2 - 3x*y + y^2 == 11]
+	[(x,y) for x = 1:100, y=1:100 if x^2 - 3x*y + y^2 == 11]
 end
 
 # ╔═╡ d538133b-bc0c-40e0-bad6-6f0d7b55f832
@@ -1479,7 +1479,7 @@ version = "1.4.1+1"
 """
 
 # ╔═╡ Cell order:
-# ╠═866207ab-db72-4220-b1c7-9b73d0ac91e8
+# ╟─866207ab-db72-4220-b1c7-9b73d0ac91e8
 # ╟─8acc204e-896e-11ed-1251-438ce5d793cb
 # ╟─76a34d8b-81a4-4732-85fa-ff534d22a7da
 # ╟─cb86a55b-a5d6-40c0-9d0a-5a4528f34d67
